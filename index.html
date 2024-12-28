@@ -36,5 +36,46 @@
             <a href="#" class="btn">Hire me</a>
         </div>
     </section>
+    <section id="services" class="services">
+        <h2 style="font-size: 22px;">Services</h2>
+        <div class="service-card">
+            <h3>Web Development</h3>
+            <p>Creating responsive and dynamic websites.</p>
+        </div>
+        <div class="service-card">
+            <h3>UI/UX Design</h3>
+            <p>Designing user-friendly interfaces.</p>
+        </div>
+        <div class="service-card">
+            <h3>SEO Optimization</h3>
+            <p>Boosting your website visibility.</p>
+        </div>
+    </section>
+    <section id="skills" class="skills">
+        <h2 style="font-size: 23px;">Skills</h2>
+        <div class="skill-card">
+            <h3>HTML</h3>
+            <p>Proficient in creating structured web pages.</p>
+        </div>
+        <div class="skill-card">
+            <h3>CSS</h3>
+            <p>Skilled in styling and designing responsive layouts.</p>
+        </div>
+        <div class="skill-card">
+            <h3>JavaScript</h3>
+            <p>Experienced in making websites interactive and dynamic.</p>
+        </div>
+    </section>
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
 </body>
 </html>
