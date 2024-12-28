@@ -224,3 +224,78 @@ span{
         margin-top: 4rem;
     }
 }
+.services, .skills {
+    padding: 30px 20px;
+    text-align: center;
+}
+.services {
+    margin-bottom: -300px; /* Reduced gap between services and skills */
+}
+.service-card, .skill-card {
+    display: inline-block;
+    margin: 20px;
+    padding: 30px;
+    border: 1px solid #c94b4b;
+    border-radius: 10px;
+    width: 300px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    height: 200px;
+}
+.service-card:hover, .skill-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(201, 75, 75, 0.5);
+}
+button {
+    background-color: #c94b4b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #a03c3c;
+}
+/* .services {
+    padding: 50px 20px;
+    text-align: center;
+}
+.service-card {
+    display: inline-block;
+    margin: 20px;
+    padding: 30px;
+    border: 1px solid #c94b4b;
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+}
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(201, 75, 75, 0.5);
+}
+.services, .skills {
+    padding: 10px 20px;
+    text-align: center;
+}
+.service-card, .skill-card {
+    display: inline-block;
+    margin: 20px;
+    padding: 30px;
+    border: 1px solid #c94b4b;
+    border-radius: 10px;
+    width: 300px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.service-card:hover, .skill-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(201, 75, 75, 0.5);
+} */
+/* button {
+    background-color: #c94b4b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #a03c3c;
+} */
